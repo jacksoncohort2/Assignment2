@@ -686,6 +686,8 @@ __SYSCALL(__NR_getcpu, sys_getcpu)
 __SYSCALL(__NR_process_vm_readv, sys_process_vm_readv)
 #define __NR_process_vm_writev			311
 __SYSCALL(__NR_process_vm_writev, sys_process_vm_writev)
+#define __NR_helloworld				312
+__SYSCALL(__NR_helloworld, sys_helloworld)
 
 #ifndef __NO_STUBS
 #define __ARCH_WANT_OLD_READDIR
